@@ -1,0 +1,17 @@
+a) En primer lugar, se pedirá el número de participantes. 
+
+b) De cada jugador, sólo me interesará el nombre y el país que representa. c) Se crearán todos los participantes, pidiendo el nombre y el país por teclado. 
+ 
+d) Empieza el juego. i. Una vez que tengamos los datos de todos los jugadores que van a participar, se da comienzo a la competición. ii. Tendremos un array con palabras (más de las que se necesitan), se elegirá una de ellas de manera aleatoria como palabra secreta, dicha palabra ya no puede volver a salir.  En total se jugarán 5 palabras en toda la competición.  Al principio de cada partida, se mostrará la palabra secreta (para facilitar la corrección). iii. Se le pedirá una letra a cada jugador.  Todo el juego se hace en minúsculas, de manera que el carácter introducido por teclado se pasará a minúsculas.  Hay que asegurarse de que sólo han introducido una letra, porque lo más sencillo es que pidáis por teclado una cadena.  Si se introduce un carácter que no sea letra o se introducen más de una letra a la vez se le volverá a pedir la letra al jugador. 
+   
+      iv. A cada jugador se le mostrarán las letras que ha ido acertando, así como el número de fallos que ha ido acumulando con esa palabra. 
+ 
+      v. Cuando un jugador tenga  5 fallos, no se le permitirá seguir jugando. 
+ 
+e) Final del juego:  El juego terminará cuando se produzca una de estas dos situaciones: i. Todos los jugadores tienen 5 fallos. ii. Uno o varios jugadores han adivinado la palabra. 
+ 
+f) Después de terminar cada partida, se mostrarán las puntuaciones parciales y se comenzará la siguiente ronda. 
+ 
+g) Cuando finalice la competición, se mostrará el ranking ordenado: 
+ 
+ 
